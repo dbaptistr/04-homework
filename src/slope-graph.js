@@ -281,6 +281,7 @@ function ready(datapoints) {
         .attr('fill', function(d) {
           return colorScale(d.key)
         })
+      svg
         .selectAll('circle.' + ClassName)
         .transition()
         .duration(100)
